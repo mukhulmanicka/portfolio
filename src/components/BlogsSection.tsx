@@ -6,14 +6,14 @@ import Image from "next/image"
 
 const blogPosts = [
   {
-    title: "Building Scalable React Applications",
+    title: "How to Bypass MDM Management on MacBook Pro (macOS Ventura)",
     excerpt:
-      "Learn the best practices for structuring large React applications with proper state management and component architecture.",
-    image: "/globe.svg",
-    date: "2024-01-15",
-    readTime: "8 min read",
-    category: "React",
-    url: "https://medium.com/@yourusername/building-scalable-react-applications",
+      "If you’ve recently purchased a secondhand MacBook and discovered it’s locked by Mobile Device Management (MDM), you’re not alone.",
+    image: "/mdm.jpg",
+    date: "2025-05-21",
+    readTime: "4 min read",
+    category: "Cybersecurity",
+    url: "https://medium.com/@mukhulm4/how-to-bypass-mdm-management-on-macbook-pro-macos-ventura-f708dacdeca9",
   },
   {
     title: "The Future of Web Development",
@@ -97,11 +97,11 @@ export default function BlogsSection() {
                   height={200}
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <Badge className="absolute top-4 left-4 bg-cyan-500 hover:bg-cyan-600">{post.category}</Badge>
+                <Badge className="absolute top-4 left-4 bg-blue-500">{post.category}</Badge>
               </div>
 
               <CardHeader>
-                <CardTitle className="text-xl line-clamp-2 group-hover:text-cyan-400 transition-colors">
+                <CardTitle className="text-xl line-clamp-2">
                   {post.title}
                 </CardTitle>
                 <div className="flex items-center text-sm text-muted-foreground space-x-4">
@@ -125,7 +125,7 @@ export default function BlogsSection() {
               </CardContent>
 
               <CardFooter>
-                <Button variant="ghost" className="group/btn p-0 h-auto font-medium" asChild>
+                <Button variant="ghost" className="group/btn" asChild>
                   <a href={post.url} target="_blank" rel="noopener noreferrer">
                     Read More
                     <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
@@ -137,7 +137,7 @@ export default function BlogsSection() {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" size="lg" asChild>
+          <Button size="lg" asChild>
             <a href="https://medium.com/@yourusername" target="_blank" rel="noopener noreferrer">
               View All Posts on Medium
               <ArrowRight className="w-4 h-4 ml-2" />

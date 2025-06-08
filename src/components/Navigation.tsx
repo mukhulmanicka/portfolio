@@ -29,7 +29,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold gradient-text">MukhulManicka._</h1>
+            <h1 className="text-xl font-bold gradient-text">MukhulManicka.dev</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -41,7 +41,7 @@ export default function Navigation() {
                   href={item.href}
                   className="text-muted-foreground hover:text-foreground transition-colors duration-200 text-sm font-medium"
                 >
-                  <span className="text-xs text-cyan-400 mr-2">// {item.number}</span>
+                  <span className="text-sm text-blue-400 mr-2">// {item.number}</span>
                   {item.name}
                 </a>
               ))}
@@ -74,7 +74,7 @@ export default function Navigation() {
                 className="block px-3 py-2 text-muted-foreground hover:text-foreground transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
-                <span className="text-xs text-cyan-400 mr-2">// {item.number}</span>
+                <span className="text-sm text-blue-400 mr-2">// {item.number}</span>
                 {item.name}
               </a>
             ))}

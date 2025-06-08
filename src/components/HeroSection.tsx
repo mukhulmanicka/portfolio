@@ -22,20 +22,20 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="mb-8">
           <Image
-            src="globe.svg"
+            src="/pfp.png"
             alt="Profile Picture"
-            width={150}
-            height={150}
+            width={250}
+            height={250}
             className="rounded-full mx-auto mb-6 border-4 border-cyan-400/20"
           />
         </div>
 
         <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-6 tracking-tight">
-          <span className="block">MUKHUL MANICKA</span>
+          <span className="gradient-text">MUKHUL MANICKA</span>
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          SOFTWARE ENGINEER
+          SOFTWARE DEVELOPER
         </p>
 
         <div className="mb-16">

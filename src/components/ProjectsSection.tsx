@@ -9,7 +9,7 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "A full-stack e-commerce solution built with Next.js, featuring user authentication, payment processing, and admin dashboard.",
-    image: "/globe.svg",
+    image: "/Ye.png",
     technologies: ["Next.js", "TypeScript", "Stripe", "Prisma"],
     githubUrl: "https://github.com/yourusername/ecommerce",
     liveUrl: "https://your-ecommerce.vercel.app",
@@ -18,7 +18,7 @@ const projects = [
     title: "Task Management App",
     description:
       "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    image: "/globe.svg",
+    image: "/Ye.png",
     technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
     githubUrl: "https://github.com/yourusername/taskmanager",
     liveUrl: "https://your-taskmanager.vercel.app",
@@ -27,7 +27,7 @@ const projects = [
     title: "Weather Dashboard",
     description:
       "A responsive weather dashboard that provides detailed forecasts, interactive maps, and location-based weather alerts.",
-    image: "/globe.svg",
+    image: "/Ye.png",
     technologies: ["Vue.js", "OpenWeather API", "Chart.js", "Tailwind"],
     githubUrl: "https://github.com/yourusername/weather-dashboard",
     liveUrl: "https://your-weather.vercel.app",

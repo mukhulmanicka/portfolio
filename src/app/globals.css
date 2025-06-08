@@ -4,13 +4,13 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 48 33% 94%;
     --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
+    --card: 227 31% 89%;
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 217 91% 60%;
     --primary-foreground: 210 40% 98%;
     --secondary: 210 40% 96%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -32,14 +32,14 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 200.2 84% 4.9%;
     --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
+    --card: 200.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
+    --popover: 200.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
     --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary-foreground: 200.2 47.4% 11.2%;
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
     --muted: 217.2 32.6% 17.5%;
@@ -73,7 +73,7 @@ html {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #00d4ff, #00a8cc);
+  background: linear-gradient(135deg, #006eff, #00bbcc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -54,7 +54,7 @@ export default function HobbiesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="gradient-text">02.</span> What I Love Doing
+            <span className="gradient-text">02.</span> My Passions
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Beyond coding, I'm passionate about various creative pursuits that keep me inspired and balanced.
@@ -67,7 +67,7 @@ export default function HobbiesSection() {
             {hobbies.map((hobby, index) => (
               <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
                 <CardContent className="p-6 text-center">
-                  <div className="text-cyan-400 mb-4 flex justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="text-blue-400 mb-4 flex justify-center group-hover:scale-110 transition-transform duration-300">
                     {hobby.icon}
                   </div>
                   <h3 className="text-xl font-semibold mb-2">{hobby.title}</h3>
@@ -86,7 +86,7 @@ export default function HobbiesSection() {
 
               <Card className="w-full max-w-sm">
                 <CardContent className="p-6 text-center">
-                  <div className="text-cyan-400 mb-4 flex justify-center">{hobbies[currentIndex].icon}</div>
+                  <div className="text-blue-400 mb-4 flex justify-center">{hobbies[currentIndex].icon}</div>
                   <h3 className="text-xl font-semibold mb-2">{hobbies[currentIndex].title}</h3>
                   <p className="text-muted-foreground">{hobbies[currentIndex].description}</p>
                 </CardContent>
@@ -102,7 +102,7 @@ export default function HobbiesSection() {
                 <button
                   key={index}
                   className={`w-2 h-2 rounded-full transition-colors ${
-                    index === currentIndex ? "bg-cyan-400" : "bg-muted-foreground/30"
+                    index === currentIndex ? "bg-blue-400" : "bg-muted-foreground/30"
                   }`}
                   onClick={() => setCurrentIndex(index)}
                 />
