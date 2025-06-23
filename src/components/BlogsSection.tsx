@@ -12,27 +12,27 @@ const blogPosts = [
     image: "/mdm.jpg",
     date: "2025-05-21",
     readTime: "4 min read",
-    category: "Cybersecurity",
+    category: "Unethical Hacking",
     url: "https://medium.com/@mukhulm4/how-to-bypass-mdm-management-on-macbook-pro-macos-ventura-f708dacdeca9",
   },
   {
-    title: "The Future of Web Development",
+    title: "What Happens When You Type in a URL in Your Browser?",
     excerpt:
-      "Exploring emerging trends in web development including AI integration, WebAssembly, and the evolution of JavaScript frameworks.",
+      "",
     image: "/globe.svg",
     date: "2024-01-08",
-    readTime: "12 min read",
-    category: "Web Development",
+    readTime: "8 min read",
+    category: "Networking",
     url: "https://medium.com/@yourusername/future-of-web-development",
   },
   {
-    title: "Optimizing Next.js Performance",
+    title: "The Digital Plague: The Mechanics of Computer Worms",
     excerpt:
-      "A comprehensive guide to improving your Next.js application performance with code splitting, image optimization, and caching strategies.",
+      "Computer worms are a type of malware that self-propagate through networks by exploiting vulnerabilities in software or systems, without requiring user interaction.",
     image: "/globe.svg",
     date: "2023-12-22",
     readTime: "10 min read",
-    category: "Next.js",
+    category: "Cybersecurity",
     url: "https://medium.com/@yourusername/optimizing-nextjs-performance",
   },
   /*
@@ -138,7 +138,7 @@ export default function BlogsSection() {
 
         <div className="text-center mt-12">
           <Button size="lg" asChild>
-            <a href="https://medium.com/@yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://medium.com/@mukhulm4" target="_blank" rel="noopener noreferrer">
               View All Posts on Medium
               <ArrowRight className="w-4 h-4 ml-2" />
             </a>

@@ -6,16 +6,16 @@ import Image from "next/image"
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "NES Style Game Emulator",
     description:
       "A full-stack e-commerce solution built with Next.js, featuring user authentication, payment processing, and admin dashboard.",
     image: "/Ye.png",
-    technologies: ["Next.js", "TypeScript", "Stripe", "Prisma"],
+    technologies: ["C++", "SDL2", "Github Actions"],
     githubUrl: "https://github.com/yourusername/ecommerce",
     liveUrl: "https://your-ecommerce.vercel.app",
   },
   {
-    title: "Task Management App",
+    title: "Serverless Web Application in AWS",
     description:
       "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
     image: "/Ye.png",
