@@ -8,29 +8,29 @@ const projects = [
   {
     title: "NES Style Game Emulator",
     description:
-      "A full-stack e-commerce solution built with Next.js, featuring user authentication, payment processing, and admin dashboard.",
-    image: "/Ye.png",
+      "A retro-style game emulator that allows you to play classic NES games in your browser.",
+    image: "/nes.png",
     technologies: ["C++", "SDL2", "Github Actions"],
-    githubUrl: "https://github.com/yourusername/ecommerce",
+    githubUrl: "https://github.com/CSE111-Group15/final_project",
     liveUrl: "https://your-ecommerce.vercel.app",
   },
   {
-    title: "Serverless Web Application in AWS",
+    title: "AWS Serverless Web Application",
     description:
-      "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    image: "/Ye.png",
+      "A serverless web application built on AWS, utilizing Lambda, API Gateway, and DynamoDB for a scalable architecture.",
+    image: "/aws.png",
     technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-    githubUrl: "https://github.com/yourusername/taskmanager",
+    githubUrl: "https://github.com/mukhulmanicka/taskmanager",
     liveUrl: "https://your-taskmanager.vercel.app",
   },
   {
-    title: "Weather Dashboard",
+    title: "Whispr, Secure Messaging",
     description:
-      "A responsive weather dashboard that provides detailed forecasts, interactive maps, and location-based weather alerts.",
-    image: "/Ye.png",
-    technologies: ["Vue.js", "OpenWeather API", "Chart.js", "Tailwind"],
-    githubUrl: "https://github.com/yourusername/weather-dashboard",
-    liveUrl: "https://your-weather.vercel.app",
+      "A secure messaging application that prioritizes user privacy and data protection.",
+    image: "/whispr.png",
+    technologies: ["Python", "Tkinter", "Cryptography"],
+    githubUrl: "https://github.com/mukhulmanicka/whispr",
+    liveUrl: "https://whispr.vercel.app",
   },
   /*
   {
@@ -89,7 +89,7 @@ export default function ProjectsSection() {
                   alt={project.title}
                   width={400}
                   height={200}
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
                   <Button size="sm" variant="secondary" asChild>

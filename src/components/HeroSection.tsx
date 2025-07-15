@@ -8,15 +8,28 @@ export default function HeroSection() {
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background 3D Elements */}
       <div className="absolute inset-0 hero-3d">
-        <div className="floating-cube absolute top-1/4 left-1/4 w-20 h-20 bg-gradient-to-br from-orange-400 to-red-500 transform rotate-45 opacity-80"></div>
-        <div
-          className="floating-cube absolute top-1/3 right-1/4 w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 transform rotate-12 opacity-70"
-          style={{ animationDelay: "2s" }}
-        ></div>
-        <div
-          className="floating-cube absolute bottom-1/3 left-1/3 w-12 h-12 bg-gradient-to-br from-green-400 to-blue-500 transform -rotate-12 opacity-60"
-          style={{ animationDelay: "4s" }}
-        ></div>
+        {/* Mobile View */}
+        <div className="block sm:hidden">
+          <div className="floating-cube absolute top-40 left-8 w-10 h-10 bg-gradient-to-br from-orange-400 to-red-500 transform rotate-45 opacity-80" style={{ animationDelay: "1s" }}></div>
+          <div className="floating-cube absolute top-60 right-8 w-8 h-8 bg-gradient-to-br from-blue-400 to-purple-500 transform rotate-12 opacity-70" style={{ animationDelay: "2s" }}></div>
+          <div className="floating-cube absolute bottom-80 left-1/2 -translate-x-1/2 w-6 h-6 bg-gradient-to-br from-green-400 to-blue-500 transform -rotate-12 opacity-60" style={{ animationDelay: "3s" }}></div>
+        </div>
+        
+        {/* Desktop View */}
+        <div className="hidden sm:block">
+          <div className="absolute inset-0 hero-3d">
+            <div className="floating-cube absolute top-1/4 left-1/4 w-20 h-20 bg-gradient-to-br from-orange-400 to-red-500 transform rotate-45 opacity-80"
+              style={{ animationDelay: "1s" }}></div>
+            <div
+              className="floating-cube absolute top-1/3 right-1/4 w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 transform rotate-12 opacity-70"
+              style={{ animationDelay: "2s" }}
+            ></div>
+            <div
+              className="floating-cube absolute bottom-1/3 left-1/3 w-12 h-12 bg-gradient-to-br from-green-400 to-blue-500 transform -rotate-12 opacity-60"
+              style={{ animationDelay: "3s" }}
+            ></div>
+          </div>
+        </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">

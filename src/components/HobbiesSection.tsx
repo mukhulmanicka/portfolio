@@ -1,25 +1,30 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronLeft, ChevronRight, Camera, Music, Code, Gamepad2, Book, Plane } from "lucide-react"
+import { ChevronLeft, ChevronRight, Camera, Music, Code, Gamepad2, Book, Trophy } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
 const hobbies = [
   {
-    icon: <Camera className="w-8 h-8" />,
-    title: "Photography",
-    description: "Capturing moments and exploring creative perspectives through the lens.",
+    icon: <Trophy className="w-8 h-8" />,
+    title: "Basketball",
+    description: "Playing basketball and staying active on and off the court.",
   },
   {
     icon: <Music className="w-8 h-8" />,
-    title: "Music Production",
-    description: "Creating beats and melodies in my home studio during weekends.",
+    title: "Music",
+    description: "Playing guitar and exploring different genres to unwind and get inspired.",
   },
   {
     icon: <Code className="w-8 h-8" />,
     title: "Open Source",
     description: "Contributing to open source projects and building side projects.",
+  },
+  {
+    icon: <Camera className="w-8 h-8" />,
+    title: "Photography",
+    description: "Capturing moments and exploring creative perspectives through the lens.",
   },
   {
     icon: <Gamepad2 className="w-8 h-8" />,
@@ -29,12 +34,7 @@ const hobbies = [
   {
     icon: <Book className="w-8 h-8" />,
     title: "Reading",
-    description: "Diving into tech books, sci-fi novels, and personal development.",
-  },
-  {
-    icon: <Plane className="w-8 h-8" />,
-    title: "Travel",
-    description: "Exploring new cultures and documenting adventures around the world.",
+    description: "Diving into tech articles, sci-fi novels, and personal improvement books.",
   },
 ]
 
