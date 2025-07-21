@@ -29,11 +29,11 @@ const blogPosts = [
     title: "The Digital Plague: The Mechanics of Computer Worms",
     excerpt:
       "Computer worms are a type of malware that self-propagate through networks by exploiting vulnerabilities in software or systems, without requiring user interaction.",
-    image: "/globe.svg",
-    date: "2023-12-22",
+    image: "/digital_plague.png",
+    date: "2024-12-12",
     readTime: "10 min read",
     category: "Cybersecurity",
-    url: "https://medium.com/@yourusername/optimizing-nextjs-performance",
+    url: "https://drive.google.com/drive/folders/1N2aGtXcyAXNJFq0OIbGZsH7IXgQtzHQ4?usp=sharing",
   },
   /*
   {
@@ -97,7 +97,7 @@ export default function BlogsSection() {
                   height={200}
                   className="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <Badge className="absolute top-4 left-4 bg-blue-500">{post.category}</Badge>
+                <Badge className="absolute top-4 left-4">{post.category}</Badge>
               </div>
 
               <CardHeader>

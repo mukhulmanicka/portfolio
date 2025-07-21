@@ -6,13 +6,14 @@ import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
 
 const navItems = [
-  { name: "Home", href: "#home", number: "01" },
+  { name: "Home", href: "#home", number: "00" },
+  { name: "Timeline", href: "#timeline", number: "01" },
   { name: "Hobbies", href: "#hobbies", number: "02" },
   { name: "Projects", href: "#projects", number: "03" },
   { name: "Blogs", href: "#blogs", number: "04" },
   { name: "Contact", href: "#contact", number: "05" },
 ]
-
+  
 export default function Navigation() {
   const [mounted, setMounted] = useState(false)
   const [isOpen, setIsOpen] = useState(false)
@@ -25,7 +26,7 @@ export default function Navigation() {
   if (!mounted) return null
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">

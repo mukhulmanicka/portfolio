@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation"
 import HeroSection from "@/components/HeroSection"
+import TimelineSection from "@/components/TimelineSection"
 import HobbiesSection from "@/components/HobbiesSection"
 import ProjectsSection from "@/components/ProjectsSection"
 import BlogsSection from "@/components/BlogsSection"
@@ -10,6 +11,7 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Navigation />
       <HeroSection />
+      <TimelineSection />
       <HobbiesSection />
       <ProjectsSection />
       <BlogsSection />

@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function HeroSection() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-muted/30">
       {/* Background 3D Elements */}
       <div className="absolute inset-0 hero-3d">
         {/* Mobile View */}

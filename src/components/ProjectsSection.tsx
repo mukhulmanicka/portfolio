@@ -19,7 +19,7 @@ const projects = [
     description:
       "A serverless web application built on AWS, utilizing Lambda, API Gateway, and DynamoDB for a scalable architecture.",
     image: "/aws.png",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
+    technologies: ["AWS Amplify", "GraphQL", "Lambda", "Amazon Bedrock"],
     githubUrl: "https://github.com/mukhulmanicka/taskmanager",
     liveUrl: "https://your-taskmanager.vercel.app",
   },
@@ -89,7 +89,7 @@ export default function ProjectsSection() {
                   alt={project.title}
                   width={400}
                   height={200}
-                  className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
                   <Button size="sm" variant="secondary" asChild>
